@@ -1,0 +1,41 @@
+.header {
+  width: 98px;
+  height: 1024px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #040306;
+  background-size: cover;
+  padding: 10px;
+}
+.linkss {
+  text-decoration: none;
+}
+.logout-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.image {
+  height: 40px;
+  width: 70px;
+}
+.logout-para {
+  color: #9b9b9b;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

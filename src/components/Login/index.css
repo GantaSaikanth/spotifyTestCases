@@ -1,0 +1,67 @@
+.login-container {
+  background-image: url('https://res.cloudinary.com/dnvtpszvn/image/upload/v1733841888/Group_138_yl1np4.png');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spotify-login-container {
+  text-align: center;
+}
+.head {
+  font-family: 'Roboto';
+  color: #fff;
+}
+.login-page {
+  background-color: #181818;
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 10px;
+}
+.error-msg {
+  color: red;
+  font-family: 'Roboto';
+}
+.input {
+  width: 100%;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.login-btn {
+  width: 100%;
+  background-color: #1db954;
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page {
+    width: 70%;
+    height: 50%;
+  }
+  .login-btn {
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+  }
+}

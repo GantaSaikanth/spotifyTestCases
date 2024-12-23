@@ -1,0 +1,40 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Roboto';
+}
+.not-found {
+  background-color: #181818;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .headerps {
+    display: none;
+  }
+  .not-found-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+.bytton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}

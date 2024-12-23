@@ -1,0 +1,16 @@
+.playlist-images {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+.playlist-name {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 10px;
+}
+.list-items {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
