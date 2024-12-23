@@ -190,7 +190,7 @@ class FeaturedPlaylistDetails extends Component {
             <p className="music-para">{currentSongs.album.artists[0].name}</p>
           </div>
         </div>
-        <audio ref={this.renderRef} controls>
+        <audio controls>
           <source src={currentSongs.previewUrl} />
           <track kind="captions" srcLang="en" />
         </audio>
